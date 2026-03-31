@@ -22,3 +22,6 @@ https://bankproject-l3s1.onrender.com
 * POST /api/put?id=1&amount=1000 — пополнить баланс на 1000.
 * POST /api/transfer?from=1&to=2&amount=500 — перевод от пользователя 1 к пользователю 2.
 * GET /api/operations?id=1 — история операций пользователя 1.
+
+## Схема базы данных
+![Database Schema](db_schema.png)
